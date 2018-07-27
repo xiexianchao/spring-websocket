@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd94c32-1678-4f56-a919-ea0ff2a223fe" name="Default" comment="添加了redis发布订阅模式">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6fd94c32-1678-4f56-a919-ea0ff2a223fe" name="Default" comment="添加了redis发布订阅模式" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../redispsdemo/target/" />
     <ignored path="D:/system/gs-messaging-redis/complete/target/" />
@@ -274,66 +272,6 @@
             <path>
               <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
               <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="sender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -697,7 +635,7 @@
       <workItem from="1532593565365" duration="62000" />
       <workItem from="1532593630757" duration="5743000" />
       <workItem from="1532655033426" duration="3814000" />
-      <workItem from="1532658860592" duration="11692000" />
+      <workItem from="1532658860592" duration="12122000" />
     </task>
     <task id="LOCAL-00001" summary="添加了redis发布订阅模式">
       <created>1532675616405</created>
@@ -749,10 +687,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52854000" />
+    <option name="totallyTimeSpent" value="53284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.5672083" />
