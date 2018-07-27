@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd94c32-1678-4f56-a919-ea0ff2a223fe" name="Default" comment="添加了redis发布订阅模式" />
+    <list default="true" id="6fd94c32-1678-4f56-a919-ea0ff2a223fe" name="Default" comment="添加了redis发布订阅模式">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" afterDir="false" />
+      <change afterPath="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisPublishObject.java" afterDir="false" />
+      <change afterPath="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/serial/SerialUtil.java" afterDir="false" />
+      <change afterPath="D:/system/springredisall/src/test/java/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/system/springredisall/pom.xml" beforeDir="false" afterPath="D:/system/springredisall/pom.xml" afterDir="false" />
+      <change beforePath="D:/system/springredisall/spring-redis-all.iml" beforeDir="false" afterPath="D:/system/springredisall/spring-redis-all.iml" afterDir="false" />
+      <change beforePath="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/Hobby.java" beforeDir="false" afterPath="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/Hobby.java" afterDir="false" />
+      <change beforePath="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscriber.java" beforeDir="false" afterPath="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscriber.java" afterDir="false" />
+      <change beforePath="D:/system/springredisall/src/main/resources/spring-redis.xml" beforeDir="false" afterPath="D:/system/springredisall/src/main/resources/spring-redis.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../redispsdemo/target/" />
     <ignored path="D:/system/gs-messaging-redis/complete/target/" />
@@ -23,88 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="true">
         <entry file="file://D:/system/springredisall/src/main/resources/spring-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="16" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="84">
+              <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#bean#0;n#beans#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/org.springframework.data.redis.serializer.StringRedisSerializer" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/org.springframework.data.redis.serializer.StringRedisSerializer">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>org.springframework.data.redis.serializer.StringRedisSerializer</OriginalElement>
-              <nodes>
-                <node x="1151.0" y="90.0">org.springframework.data.redis.serializer.OxmSerializer</node>
-                <node x="705.0" y="90.0">org.springframework.data.redis.serializer.GenericToStringSerializer</node>
-                <node x="187.99999999999994" y="90.0">org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer</node>
-                <node x="0.0" y="90.0">org.springframework.data.redis.serializer.StringRedisSerializer</node>
-                <node x="462.99999999999994" y="90.0">org.springframework.data.redis.serializer.JdkSerializationRedisSerializer</node>
-                <node x="921.0" y="90.0">org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer</node>
-                <node x="622.4999999999999" y="-6.0">org.springframework.data.redis.serializer.RedisSerializer</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.springframework.data.redis.serializer.StringRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-                  <point x="0.0" y="-15.0" />
-                  <point x="84.0" y="50.0" />
-                  <point x="633.4999999999999" y="50.0" />
-                  <point x="-55.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.data.redis.serializer.OxmSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1215.0" y="50.0" />
-                  <point x="743.4999999999999" y="50.0" />
-                  <point x="55.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1026.0" y="60.0" />
-                  <point x="721.4999999999999" y="60.0" />
-                  <point x="33.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-                  <point x="0.0" y="-15.0" />
-                  <point x="315.49999999999994" y="60.0" />
-                  <point x="655.4999999999999" y="60.0" />
-                  <point x="-33.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.data.redis.serializer.GenericToStringSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-                  <point x="-5.6843418860808015E-14" y="-15.0" />
-                  <point x="802.9999999999999" y="70.0" />
-                  <point x="699.4999999999999" y="70.0" />
-                  <point x="11.0" y="15.0" />
-                </edge>
-                <edge source="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
-                  <point x="0.0" y="-15.0" />
-                  <point x="574.0" y="70.0" />
-                  <point x="677.4999999999999" y="70.0" />
-                  <point x="-11.0" y="15.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-77.14285714285711" y="-124.34523809523807" />
-              <SelectedNodes>
-                <node>org.springframework.data.redis.serializer.RedisSerializer</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -150,6 +87,9 @@
       <find>4.2.3</find>
       <find>RedisTemplate</find>
       <find>String</find>
+      <find>发送</find>
+      <find>jdk</find>
+      <find>messageListener2</find>
     </findStrings>
     <dirStrings>
       <dir>C:\src\redispsdemo</dir>
@@ -161,7 +101,7 @@
         <option value="xianchao" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/system/springredisall" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -205,15 +145,18 @@
         <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisSender.java" />
         <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/ResiPublisher.java" />
         <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscribe.java" />
-        <option value="D:/system/springredisall/pom.xml" />
         <option value="D:/system/springredisall/src/main/resources/log4j.properties" />
         <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisPublisher.java" />
-        <option value="D:/system/springredisall/src/main/resources/spring-redis.xml" />
-        <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscriber.java" />
-        <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/Hobby.java" />
         <option value="D:/system/springredisall/src/test/java/Test.java" />
         <option value="D:/system/springredisall/src/test/java/Test2.java" />
         <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/User.java" />
+        <option value="D:/system/springredisall/pom.xml" />
+        <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/Hobby.java" />
+        <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisPublishObject.java" />
+        <option value="D:/system/springredisall/src/test/java/Test3.java" />
+        <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/serial/SerialUtil.java" />
+        <option value="D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscriber.java" />
+        <option value="D:/system/springredisall/src/main/resources/spring-redis.xml" />
       </list>
     </option>
   </component>
@@ -253,7 +196,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -273,6 +216,61 @@
               <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
               <item name="springredisall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springredisall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -288,7 +286,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/system/springredisall" />
+    <property name="last_opened_file_path" value="C:/javaProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -332,28 +330,11 @@
     </option>
     <option name="contentProportion" value="0.16632444" />
   </component>
-  <component name="RunManager" selected="JUnit.Test2.testSendObject">
+  <component name="RunManager" selected="JUnit.Test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-websocket" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-redis-all" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -370,13 +351,47 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test2.testSendObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-redis-all" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="testSendObject" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-redis-all" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test3.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-redis-all" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -389,23 +404,6 @@
     </configuration>
     <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-redis-all" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-websocket" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -601,19 +599,19 @@
       <item itemvalue="Tomcat Server.tomcat1" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (1)" />
-      <item itemvalue="JUnit.Test (1)" />
-      <item itemvalue="JUnit.Test.test" />
-      <item itemvalue="JUnit.Test (2)" />
       <item itemvalue="JUnit.Test.test (1)" />
-      <item itemvalue="JUnit.Test2.testSendObject" />
+      <item itemvalue="JUnit.Test3" />
+      <item itemvalue="JUnit.Test2" />
+      <item itemvalue="JUnit.Test3.test" />
+      <item itemvalue="JUnit.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test2.testSendObject" />
-        <item itemvalue="JUnit.Test (2)" />
+        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.Test2" />
+        <item itemvalue="JUnit.Test3" />
+        <item itemvalue="JUnit.Test3.test" />
         <item itemvalue="JUnit.Test.test (1)" />
-        <item itemvalue="JUnit.Test (1)" />
-        <item itemvalue="JUnit.Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +633,7 @@
       <workItem from="1532593565365" duration="62000" />
       <workItem from="1532593630757" duration="5743000" />
       <workItem from="1532655033426" duration="3814000" />
-      <workItem from="1532658860592" duration="12122000" />
+      <workItem from="1532658860592" duration="18213000" />
     </task>
     <task id="LOCAL-00001" summary="添加了redis发布订阅模式">
       <created>1532675616405</created>
@@ -655,48 +653,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 33m 17s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test3 - 2018.07.27 at 17h 08m 46s.xml">
+      <configuration name="Test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 35m 40s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 08m 57s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 41m 08s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 15m 26s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 41m 54s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 15m 44s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 42m 14s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 16m 52s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 43m 46s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 17m 59s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 44m 09s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 18m 18s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 44m 30s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 18m 53s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_(2) - 2018.07.27 at 14h 49m 45s.xml">
-      <configuration name="Test (2)" configurationId="JUnit" />
+    <history-entry file="Test2 - 2018.07.27 at 17h 19m 10s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_testSendObject - 2018.07.27 at 14h 56m 17s.xml">
-      <configuration name="Test2.testSendObject" configurationId="JUnit" />
+    <history-entry file="Test - 2018.07.27 at 17h 19m 17s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53284000" />
+    <option name="totallyTimeSpent" value="59375000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.5672083" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.5672083" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.3293944" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.40884718" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -704,8 +712,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.49335304" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.73855245" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3293944" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.3293944" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -713,18 +721,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run Dashboard" order="2" weight="0.42983752" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" weight="0.4564254" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" weight="0.64844906" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32200885" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.3293944" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.3293944" />
@@ -774,7 +782,35 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="36" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java</url>
+          <line>680</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisPublishObject.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscriber.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java</url>
+          <line>484</line>
+          <properties class="org.springframework.data.redis.core.RedisTemplate" method="rawKey">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -787,140 +823,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/main/java/TestPubSub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/listener/PatternTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/listener/RedisMessageListenerContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="440" selection-start-line="440" selection-end-line="440" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE-sources.jar!/org/springframework/data/redis/listener/adapter/MessageListenerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/system/springredis/src/main/java/receiver/ReceiverMessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/listener/adapter/MessageListenerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-          <folding>
-            <element signature="class#MethodInvoker#0;class#MessageListenerAdapter#0" />
-            <element signature="e#9334#9335#0" expanded="true" />
-            <element signature="e#9375#9376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/XMLSchema.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="621" column="6" selection-start-line="621" selection-start-column="6" selection-end-line="621" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/main/java/listener/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/message.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/main/java/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/test/java/TestDemoText.java" />
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/test/java/TestDemoText1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/main/java/main/MainDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/springagg/service/RedisServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/main/java/listener/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../redispsdemo/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/springagg/service/RedisServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1053,13 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/system/springredisall/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/system/springredis/src/main/java/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1074,28 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE.jar!/org/springframework/data/redis/config/spring-redis-1.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
-          <folding>
-            <element signature="n#xsd:sequence#0;n#xsd:complexType#0;n#xsd:element#0;n#xsd:schema#0;n#!!top" />
-            <element signature="n#xsd:element#1;n#xsd:schema#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="467" column="59" selection-start-line="466" selection-start-column="9" selection-end-line="467" selection-end-column="59" />
-          <folding>
-            <element signature="e#16966#16967#0" expanded="true" />
-            <element signature="e#17013#17014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../redispsdemo/src/main/resources/spring-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1103,73 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/Hobby.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sendMessage#0;class#RedisPublisher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/system/springredisall/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="18" column="7" selection-start-line="14" selection-start-column="2" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/system/springredisall/src/test/java/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/system/springredisall/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -1236,19 +1046,282 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/system/springredisall/src/main/resources/spring-redis.xml">
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="107" />
+        <state relative-caret-position="217">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE-sources.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar!/org/springframework/core/convert/converter/Converter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConverters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3192" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConverters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE-sources.jar!/org/springframework/core/convert/converter/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="118">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#toString#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE.jar!/org/springframework/data/redis/config/spring-redis-1.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+          <folding>
+            <element signature="n#xsd:sequence#0;n#xsd:complexType#0;n#xsd:element#0;n#xsd:schema#0;n#!!top" />
+            <element signature="n#xsd:element#1;n#xsd:schema#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisPubSubCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="3062" column="35" selection-start-line="3062" selection-start-column="28" selection-end-line="3062" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="3018" selection-start-line="3018" selection-end-line="3018" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#1662#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/entity/Hobby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="docComment;class#JdkSerializationRedisSerializer#0" />
+            <element signature="docComment;method#JdkSerializationRedisSerializer#0;class#JdkSerializationRedisSerializer#0" />
+            <element signature="docComment;method#JdkSerializationRedisSerializer#1;class#JdkSerializationRedisSerializer#0" />
+            <element signature="method#JdkSerializationRedisSerializer#1;class#JdkSerializationRedisSerializer#0" />
+            <element signature="docComment;method#JdkSerializationRedisSerializer#2;class#JdkSerializationRedisSerializer#0" />
+            <element signature="method#JdkSerializationRedisSerializer#2;class#JdkSerializationRedisSerializer#0" />
+            <element signature="method#deserialize#0;class#JdkSerializationRedisSerializer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisPublishObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/sender/RedisPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/com/alibaba/fastjson/1.2.7/fastjson-1.2.7.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/com/alibaba/fastjson/1.2.7/fastjson-1.2.7-sources.jar!/com/alibaba/fastjson/parser/ParserConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#6441#6442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/com/alibaba/fastjson/1.2.7/fastjson-1.2.7-sources.jar!/com/alibaba/fastjson/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+          <folding>
+            <element signature="e#20231#20232#0" expanded="true" />
+            <element signature="e#20306#20307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="680" selection-start-line="680" selection-end-line="680" />
+          <folding>
+            <element signature="e#14680#14681#0" expanded="true" />
+            <element signature="e#14718#14719#0" expanded="true" />
+            <element signature="e#15864#15865#0" expanded="true" />
+            <element signature="e#15913#15914#0" expanded="true" />
+            <element signature="e#16966#16967#0" expanded="true" />
+            <element signature="e#17013#17014#0" expanded="true" />
+            <element signature="e#17507#17508#0" expanded="true" />
+            <element signature="e#17552#17553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/serial/SerialUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SerialUtil#1;class#SerialUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/test/java/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/test/java/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/maven_repository/org/springframework/data/spring-data-redis/1.7.8.RELEASE/spring-data-redis-1.7.8.RELEASE-sources.jar!/org/springframework/data/redis/listener/adapter/MessageListenerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="237" column="69" selection-start-line="237" selection-start-column="48" selection-end-line="237" selection-end-column="69" />
+          <folding>
+            <element signature="e#9043#9044#0" expanded="true" />
+            <element signature="e#9078#9079#0" expanded="true" />
+            <element signature="e#9334#9335#0" expanded="true" />
+            <element signature="e#9375#9376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/main/java/com/xiechao/spring/redis/listener/RedisSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/springredisall/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+          <folding>
+            <element signature="n#bean#0;n#beans#0;n#!!top" />
           </folding>
         </state>
       </provider>
