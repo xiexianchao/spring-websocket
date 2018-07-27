@@ -68,8 +68,9 @@ public class TextMessageHandler extends TextWebSocketHandler {
             WebSocketSession session = it.next().getValue();
             if (username.equals(session.getAttributes().get(Constants.DEFAULT_WEBSOCKET_USERNAME))) {
                 try {
-                    if (session.isOpen())
+                    if (session.isOpen()) {
                         session.sendMessage(message);
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -95,4 +96,7 @@ public class TextMessageHandler extends TextWebSocketHandler {
         Set<Map.Entry<String, WebSocketSession>> entrys = users.entrySet();
         return entrys.iterator();
     }
+
+
+
 }

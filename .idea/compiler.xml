@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-redis" />
+        <module name="spring-redis-all" />
+        <module name="spring-websocket" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gs-messaging-redis" target="1.8" />
+      <module name="redis-ps-demo" target="1.8" />
+      <module name="redispsdemo" target="1.8" />
+      <module name="spring-redis" target="1.8" />
+      <module name="spring-redis-all" target="1.8" />
+      <module name="spring-websocket" target="1.8" />
+      <module name="springRedisDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
