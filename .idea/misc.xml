@@ -4,7 +4,7 @@
     <session id="-1145040557">
       <usages-collector id="statistics.spring.core.usages.trigger">
         <counts>
-          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="3" />
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -24,6 +24,11 @@
         <option value="D:/system/spring-data-redis/pom.xml" />
         <option value="$PROJECT_DIR$/../redispsdemo/pom.xml" />
         <option value="D:/system/springredisall/pom.xml" />
+        <option value="$PROJECT_DIR$/../quartzdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../quartzspringtest/pom.xml" />
+        <option value="D:/system/stormOrderAnalysis/pom.xml" />
+        <option value="D:/db_upgrade/redisdataset/pom.xml" />
+        <option value="D:/system/redisdataset/pom.xml" />
       </list>
     </option>
   </component>

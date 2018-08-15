@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="quartzdemo" />
+        <module name="quartzspringdemo" />
+        <module name="redis-data-set" />
         <module name="spring-redis" />
         <module name="spring-redis-all" />
         <module name="spring-websocket" />
@@ -13,12 +16,17 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gs-messaging-redis" target="1.8" />
+      <module name="quartzdemo" target="1.8" />
+      <module name="quartzspringdemo" target="1.8" />
+      <module name="quartzspringtest" target="1.8" />
+      <module name="redis-data-set" target="1.8" />
       <module name="redis-ps-demo" target="1.8" />
       <module name="redispsdemo" target="1.8" />
       <module name="spring-redis" target="1.8" />
       <module name="spring-redis-all" target="1.8" />
       <module name="spring-websocket" target="1.8" />
       <module name="springRedisDemo" target="1.8" />
+      <module name="stormOrderAnalysis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -77,6 +77,23 @@ public class TextMessageHandler extends TextWebSocketHandler {
             }
         }
     }
+    public void sendMessageToXieChao(TextMessage message){
+        Iterator<Map.Entry<String,WebSocketSession>> it = userIterator();
+        while(it.hasNext()){
+            WebSocketSession session = it.next().getValue();
+            if("xiechao".equalsIgnoreCase((String) session.getAttributes().get(Constants.DEFAULT_WEBSOCKET_USERNAME))) {
+                try {
+                    if (session.isOpen()) {
+                        session.sendMessage(message);
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
+    }
 
     public void sendMessageToUsers(TextMessage message) {
         Iterator<Map.Entry<String, WebSocketSession>> it = userIterator();
@@ -91,6 +108,8 @@ public class TextMessageHandler extends TextWebSocketHandler {
 
         }
     }
+
+
 
     private Iterator<Map.Entry<String, WebSocketSession>> userIterator() {
         Set<Map.Entry<String, WebSocketSession>> entrys = users.entrySet();

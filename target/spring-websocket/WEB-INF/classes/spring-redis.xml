@@ -6,7 +6,7 @@
        xmlns:redis="http://www.springframework.org/schema/redis"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/redis http://www.springframework.org/schema/redis/spring-redis.xsd">
 
-    <context:component-scan base-package="org.springagg.service"/>
+    <bean id="springContextUtil" class="org.springagg.util.SpringContextUtil"/>
 
     <!--连接池配置-->
     <bean class="redis.clients.jedis.JedisPoolConfig" id="jedisPoolConfig">
@@ -30,50 +30,10 @@
         <property name="usePool" value="true"/>
     </bean>
     <!--redisTemplate配置-->
-    <bean class="org.springframework.data.redis.core.StringRedisTemplate" id="redisTemplate">
-        <property name="connectionFactory" ref="connectionFactory"/>
-    </bean>
+    <bean id="stringRedisSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
 
-   <bean class="org.springframework.data.redis.core.RedisTemplate" id="redisTemplate2" p:connectionFactory-ref="connectionFactory"/>
-
-    <!--监听类-->
-    <bean id="messageListener" class="org.springagg.listener.MyMessageListener"/>
-
-    <!--监听适配器-->
-    <bean id="messageListenerAdapter" class="org.springframework.data.redis.listener.adapter.MessageListenerAdapter">
-        <property name="defaultListenerMethod" value="getMessage"/>
-        <property name="delegate" ref="messageListener"/>
-        <property name="serializer">
-            <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
-        </property>
-    </bean>
-    <!--Topic配置-->
-   <!-- <bean id="topic" class="org.springframework.data.redis.listener.PatternTopic">
-        <constructor-arg name="pattern" value="topic"/>
-    </bean>-->
-
-
-    <!--container配置-->
-    <!--<bean id="container" class="org.springframework.data.redis.listener.RedisMessageListenerContainer">
-        <property name="connectionFactory" ref="connectionFactory"/>
-        <property name="topicSerializer">
-            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
-        </property>
-        <property name="messageListeners" >
-            <map key-type="org.springframework.data.redis.connection.MessageListener" value-type="org.springframework.data.redis.listener.PatternTopic">
-                <entry key-ref="messageListenerAdapter" value-ref="topic"/>
-            </map>
-           &lt;!&ndash; <map key-type="listener.Listener" value-type="org.springframework.data.redis.listener.PatternTopic">
-                <entry key-ref="listener" value-ref="topic"/>
-            </map>&ndash;&gt;
-        </property>
-    </bean>-->
-
-    <redis:listener-container connection-factory="connectionFactory">
-        <redis:listener ref="messageListener" method="getMessage" topic="mqMessage"/>
-    </redis:listener-container>
-
-
-
+   <bean class="org.springframework.data.redis.core.RedisTemplate" id="redisTemplate2" p:connectionFactory-ref="connectionFactory"
+   p:keySerializer-ref="stringRedisSerializer" p:hashKeySerializer-ref="stringRedisSerializer"
+   p:valueSerializer-ref="stringRedisSerializer" p:hashValueSerializer-ref="stringRedisSerializer"/>
 
 </beans>

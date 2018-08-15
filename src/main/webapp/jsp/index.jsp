@@ -24,8 +24,12 @@ ul, li { list-style-type: square;}
 		console.log('open', event);
 	};
 	websocket.onmessage = function(event) {
+
+	   // console.clear();
 		console.log('message', event.data);
-		$('div[message] > ul').append('<li>' + event.data + '</li>');
+		//$('div[message] > ul').append('<li>' + event.data + '</li>');
+
+        $('div[message] > ul').html('<li>' + event.data + '</li>')
 	};
 </script>
 

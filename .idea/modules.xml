@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../quartzdemo/quartzdemo.iml" filepath="$PROJECT_DIR$/../quartzdemo/quartzdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quartzspringdemo/quartzspringdemo.iml" filepath="$PROJECT_DIR$/../quartzspringdemo/quartzspringdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quartzspringtest/quartzspringtest.iml" filepath="$PROJECT_DIR$/../quartzspringtest/quartzspringtest.iml" />
+      <module fileurl="file://D:/system/redisdataset/redis-data-set.iml" filepath="D:/system/redisdataset/redis-data-set.iml" />
       <module fileurl="file://$PROJECT_DIR$/../redispsdemo/redis-ps-demo.iml" filepath="$PROJECT_DIR$/../redispsdemo/redis-ps-demo.iml" />
       <module fileurl="file://D:/system/springredis/spring-redis.iml" filepath="D:/system/springredis/spring-redis.iml" />
       <module fileurl="file://D:/system/springredisall/spring-redis-all.iml" filepath="D:/system/springredisall/spring-redis-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-websocket.iml" filepath="$PROJECT_DIR$/.idea/spring-websocket.iml" />
+      <module fileurl="file://D:/system/stormOrderAnalysis/stormOrderAnalysis.iml" filepath="D:/system/stormOrderAnalysis/stormOrderAnalysis.iml" />
     </modules>
   </component>
 </project>
